@@ -1,0 +1,76 @@
+/* user register */
+.users-register,
+.users-dashboard {
+    max-width: 500px;
+}
+
+.users-adds{
+    max-width: 700px;
+}
+
+.users-adds .items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 32px;
+    padding: 16px 0;
+}
+
+.users-adds .item {
+    display: grid;
+    grid-template-columns: 116px 1fr;
+    align-items: start;
+    color: #444;
+}
+
+.users-adds .item .image {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 4px -4px black;
+}
+
+.users-adds .info {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+.users-adds .info .title {
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(74,74,74);
+    margin-bottom: 4px;
+}
+.users-adds .info .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(74,74,74);
+    margin-bottom: 4px;
+}
+
+.users-adds .info .published {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(74,74,74);
+}
+
+.users-adds .info .actions {
+    display: flex;
+    margin-top: auto;
+}
+
+.users-adds .info .actions a {
+    margin-right: 16px;
+    color: var(--primary-color);
+}
+
+.users-adds .info .actions a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
